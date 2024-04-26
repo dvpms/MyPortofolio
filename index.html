@@ -8,40 +8,29 @@
         <link rel="stylesheet" href="assets/css/materialdesignicons.min.css">
         <link rel="stylesheet" href="assets/css/animate.min.css">
         <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     </head>
 
     <body>
 
         <nav class="navbar navbar-expand-lg fixed-top custom-nav sticky">
             <div class="container">
-                <a class='navbar-brand logo' href='index_1.html'>
-                        <h1>ICOM</h1>
+                <a class='navbar-brand logo' href='#'>
+                        <img src="/assets/images/DEV.svg" alt="" style="width: 100px;height: auto;">
                     </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
                         <i class="mdi mdi-menu"></i>
                     </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item active">
-                            <a href="#" class="nav-link">Home</a>
+                        <li class="nav-item">
+                            <a href="#home" class="nav-link">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">About</a>
+                            <a href="#about-me" class="nav-link">About</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">Services</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">Portfolio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">Achievements</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">Blog</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">Contact</a>
+                            <a href="#portfolio" class="nav-link">Portfolio</a>
                         </li>
                     </ul>
                 </div>
@@ -50,38 +39,157 @@
 
         <section class="home-bg section h-100vh" id="home">
             <div class="bg-overlay"></div>
-                <div class="container z-index">
-                    <div class="row justify-content-center">
-                        <div class="col-lg-12">
-                            <div class="text-white text-center">
-                                <h4>Hello & Welcome</h4>
-                                <h1 class="header_title mb-0 mt-3">I Am <span class="element fw-bold" data-elements="A Designer.,A Developer."></span></h1>
-                                <ul class="social_home list-unstyled text-center pt-4">
-                                    <li class="list-inline-item"><a href="javascript:void(0)"><i class="mdi mdi-facebook"></i></a></li>
-                                    <li class="list-inline-item"><a href="javascript:void(0)"><i class="mdi mdi-linkedin"></i></a></li>
-                                    <li class="list-inline-item"><a href="javascript:void(0)"><i class="mdi mdi-dribbble"></i></a></li>
-                                    <li class="list-inline-item"><a href="javascript:void(0)"><i class="mdi mdi-google-plus"></i></a></li>
-                                    <li class="list-inline-item"><a href="javascript:void(0)"><i class="mdi mdi-twitter"></i></a></li>
-                                </ul>
-                                <div class="header_btn">
-                                    <a href="https://icom-digital.com "javascript:void(0)" class="btn btn-outline-custom btn-rounded mt-4">Download CV</a>
+            <div class="container z-index">
+                <div class="row justify-content-center">
+                    <div class="col-lg-12">
+                        <div class="text-white text-center">
+                            <h4>Hello & Welcome</h4>
+                            <h1 class="header_title mb-0 mt-3">I Am <span class="element fw-bold" data-elements="Devran. ,A Developer."></span></h1>
+                            <ul class="social_home list-unstyled text-center pt-4">
+                                <li class="list-inline-item" style="padding: 6px;"><a href="https://www.linkedin.com/in/devran-perdana-malik-2aaa07210/"><i class="mdi mdi-48px mdi-linkedin-box"></i></a></li>
+                                <li class="list-inline-item" style="padding: 6px;"><a href="https://www.instagram.com/devran_perdana/"><i class="mdi mdi-48px mdi-instagram"></i></a></li>
+                                <li class="list-inline-item" style="padding: 6px;"><a href="https://api.whatsapp.com/send?phone=6289666000506"><i class="mdi mdi-48px mdi-whatsapp"></i></a></li>
+                            </ul>
+                            <div class="header_btn">
+                                <a href="https://drive.google.com/uc?export=download&id=16Km-cr9ZFAAo9zgCeXf3rfUCd4Okaa0F" class="btn btn-outline-custom btn-rounded mt-4">Download CV</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Portfolio Grid-->
+        <section class="page-section" id="portfolio" style="background: linear-gradient(-200deg, grey, white);">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Portofolio</h2>
+                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 col-sm-6 mb-4">
+                        <!-- Portfolio item 1-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets\images\Portofolio\1.jpg" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">IconicVibes</div>
+                                <div class="portfolio-caption-subheading text-muted">Online Shop</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-sm-6 mb-4">
+                        <!-- Portfolio item 2-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets\images\Portofolio\2.jpg" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Explore</div>
+                                <div class="portfolio-caption-subheading text-muted">Graphic Design</div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Modals-->
+        <!-- Portfolio item 1 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets\images\close-ellipse-svgrepo-com.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-wrap">IconicVibes</h2>
+                                    <p class="item-intro text-muted">Online Shop</p>
+                                    <img class="img-fluid d-block mx-auto" src="assets\images\Portofolio\1.jpg" alt="..." />
+                                    <p>"IconicVibes" adalah sebuah proyek website online shop yang menampilkan koleksi produk baju, celana, topi, cincin, dan sepatu.<br>
+                                        Untuk melihat website, klik <a href="https://iconicvibes.vercel.app/">disini</a>
+                                    </p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            <div class="scroll_down">
-                <a href="#about" class="scroll">
-                    <i class="mbri-arrow-down text-white"></i>
-                </a>
+            </div>
+        </div>
+        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets\images\close-ellipse-svgrepo-com.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-wrap">Kemas.Id</h2>
+                                    <p class="item-intro text-muted">Website</p>
+                                    <img class="img-fluid d-block mx-auto" src="assets\images\Portofolio\2.jpg" alt="..." />
+                                    <br>
+                                        Platform digital yang dirancang untuk meningkatkan kualitas hidup masyarakat melalui berbagai layanan dan fitur.
+                                        Aplikasi ini bertujuan untuk menjadi jembatan penghubung antara masyarakat dengan berbagai sumber daya dan bantuan yang dapat mendukung dan memudahkan pelayanan Masyarakat di lingkungan RT. Proyek ini dibuat sebagai tugas akhir program MSIB.br <br>
+                                        Untuk melihat website, klik <a href="https://kemas.site/">disini</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section id="about-me" style="background: linear-gradient(-200deg, grey, white);padding: 20px;height: 650px;align-content: center;">
+            <div class="container">
+                <div class="row" style="height: 600px; align-items: center;">
+                    <div class="col-lg-6">
+                        <div style="border-radius: 12%;display: flex;justify-content: center;align-items: flex-end; background: repeating-linear-gradient(127deg, grey, white 196px);overflow: hidden;width: 400px;height: 450px;">
+                            <img src="assets/images/Devran.png" alt="Profile Picture" class="img-fluid" style="width: 327px;height: auto;">
+                        </div>
+                    </div>
+                    <div class="col-lg-6" style="align-content: center;">
+                        <div class="text-center">
+                            <h2 class="section-heading text-uppercase">About Me</h2>
+                            <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                        </div>
+                        <div class="mt-4">
+                            <h4 class="text-center">Devran Perdana Malik</h4>
+                            <p class="text-center">Web Developer</p>
+                            <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae nunc eget nunc tincidunt aliquet. Nullam euismod, nisl id lacinia consectetur, nunc nunc lacinia nunc, id lacinia nunc nunc in nunc. Sed vitae nunc eget nunc tincidunt aliquet. Nullam euismod, nisl id lacinia consectetur, nunc nunc lacinia nunc, id lacinia nunc nunc in nunc.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
 
+        <footer class="footer-copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <p>© 2022 Devran Perdana Malik. All rights reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+        <script src="assets/js/scripts.js"></script>
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/typed.js"></script>
 
-         <script src="assets/js/jquery.min.js"></script>
-         <script src="assets/js/typed.js"></script>         
         <script>
             $(".element").each(function() {
                 var $this = $(this);
@@ -92,5 +200,21 @@
                 });
             });
         </script>
-    </body>
+         
+        <script>
+            $(document).ready(function(){
+                $('a.nav-link').on('click', function(event) {
+                    if (this.hash !== "") {
+                        event.preventDefault();
+                        var hash = this.hash;
+                        $('html, body').animate({
+                            scrollTop: $(hash).offset().top
+                        }, 900, function(){
+                            window.location.hash = hash;
+                        });
+                    }
+                });
+            });
+        </script>        
+        </body>
 </html>
